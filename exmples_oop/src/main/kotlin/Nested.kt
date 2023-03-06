@@ -26,18 +26,7 @@ class Zoo(private val name: String,private val sound: String){
     }
 }
 fun main(){
-    var z = Zoo("Rooster","cococo")
-    z.zoo_name = "zooo parcke"
-    z.id = 100023332
-    z.display()
-    var A = Zoo("Rooster","cococo").Animel()
-    A.zoo_name = "zooo parcke"
-    A.id = 100023332
-    A.animel()
-    var A2 = Zoo("Rooster","cococo").Animel2()
-    A2.zoo_name = "zooo parcke"
-    A2.id = 100023332
-    A2.animel2()
+
 
 
 }
