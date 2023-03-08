@@ -5,7 +5,7 @@ open class Person {
     var lastname: String = ""
         get() = field.uppercase()
     var age: Int = 0
-        
+
 
     fun persone_info(){
         println("----- Persone Information -----")
