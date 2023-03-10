@@ -16,4 +16,11 @@ fun main(){
 
     print("for (i in 1..10 step 2) print(i)")
     for (i in 1..10 step 2) print("$i ")
+
+    println()
+
+    // ForEach
+    val values = listOf("kotlin","java","Js","HTML")
+    values.forEach { println(it) }
+
 }
